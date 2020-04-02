@@ -21,6 +21,8 @@ Commands:
 
 	- look at git status again, no more untracked files 
 
-
+	- To add file to remote repositories use 
+	  git remote add origin .... (.... is the location of file)  
+	  git push -u origin master (this adds the file to the master branch)
 	
 	
