@@ -1,0 +1,26 @@
+Adding username and email to git:
+	- git config --global user.name "username"
+ 	- git config --global user.email "email.address"
+
+Add files/folders to git - tracking
+
+Commands:
+	- in the terminal, change the directory and go to the location of the file/folder
+
+	- git init
+
+	- (defaults write com.apple.finder AppleShowAllFiles YES) - this opens hidden git 	folders
+
+	- touch test.txt (this adds file to the folder)
+
+	- git status (shows tracked/untracked files)
+
+	- git add . (adds everything to the staging area) 
+
+	- git commit -m "commit message"
+
+	- look at git status again, no more untracked files 
+
+
+	
+	
