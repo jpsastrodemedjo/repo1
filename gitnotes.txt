@@ -24,5 +24,28 @@ Commands:
 	- To add file to remote repositories use 
 	  git remote add origin .... (.... is the location of file)  
 	  git push -u origin master (this adds the file to the master branch)
+
+-----------------------------------------------------------------------------------------
+ENABLING AUTOCOMPLETE 
+-----------------------------------------------------------------------------------------
+
+1. Put git-completion.bash script to home dir.
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+
+2. add following to .bash_profile. This tells .bash to run git-completion.bash script if it exists 
+vi ~/.bash_profile
+
+press I on keyboard and you will go on insert mode 
+
+put the following in
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
+then press escape
+then write :wq! w - write whatever changes done, q - quit
+
+
+
 	
 	
