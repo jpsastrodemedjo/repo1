@@ -55,6 +55,9 @@ BRANCHING & MERGING
 2. checkout branch
 	- git checkout branch_name
 
+3. Merge new branch in master branch (must be in master first so type "git checkout master")
+	- git merge branch_name
+
 
 
 	
